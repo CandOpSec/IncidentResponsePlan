@@ -1,7 +1,6 @@
 ## Welcome to GitHub Pages
 
 
-{% include_relative docs/index.md %}
 
 
 ### Jekyll Themes
