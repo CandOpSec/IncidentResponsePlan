@@ -3,3 +3,4 @@
 ----
 This e-lottery system is based on few simple nodes in a network for random number generator broadcasts
 ![Simple scheme of the system](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/e-lottery-requirements/confidentiality/assets/simple_scheme.png)
+
