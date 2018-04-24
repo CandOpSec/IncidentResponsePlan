@@ -57,7 +57,7 @@ some cases we can establish a new connection between two servers, which are not 
 by generating/giving a new mutual key for them. At this moment we have taken care of
 managing the work, making it possible for eveyone to be served and monitoring the status
 of our network. Such solution makes it possible to reach availability of an acceptable level.
-### Verifying
+### 4 Verifying
 In this section we will discuss the verification aspect of availability of elottery. By verification
 we mean the condition that it is possible for servers to work and process data without creating
 any losses. To verify availability neighboring servers send impulse to each other and check if
