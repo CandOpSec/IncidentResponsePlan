@@ -1,0 +1,111 @@
+# Incident response plan in general
+
+## What is a Security Incident?
+A security incident in the context of this MSSEI requirement is an event that compromises or has the potential to compromise:
+- the operation of covered core systems
+- confidentiality or integrity of covered data assets
+A security incident may involve any or all of the following:
+- a violation of campus computer security policies and standards
+- unauthorized computer or data access
+- presence of a malicious application, such as a virus
+- presence of unexpected/unusual programs
+- a denial of service condition against data, network or computer
+- misuse of service, systems or information
+- physical or logical damage to systems
+- computer theft
+
+## Components of an Incident Response Plan
+Should contain the following:
+- Names, contact information and responsibilities of the local incident response team
+- System details, or reference to the location of such information
+- Procedures for reporting and handling a suspected incident
+- Report security incident to ISP and include the intake report
+- Respond to the security incident in a timely fashion based on the incident prioritization guideline
+
+## Security Incident Prioritization
+To help prioritize the timing and resources needed to deploy corrective action, resource proprietors and resource custodians must assess the impact of a security incident based on the following factors:
+- How the incident will impact existing functionality of the affected systems
+- Whether the incident breaches the confidentiality or integrity of covered data (Protection Level 2) or non-covered data
+- How much of the user population is affected by the security incident
+- What’s the reputational/financial impact to campus
+
+
+# Plan for our large scale e-lottery system
+## Mission
+Our incident response plan is about protecting availability and preventing random numbers prediction.
+## Strategies and goals
+Our strategy to protect availability is through mirroring servers and frequent staff or system parts changes.
+Our goal is to sustain profitability from every single e-lottery game and stopping any fraudulent action inside the system.
+## Senior management approval
+MISSING
+## How the incident response team will communicate with the rest of the organization and with other organizations
+In case of large scale e-lottery served via complex networks, we are assuming that every action should be taken automatically in a way that applies to given incident.
+Each incident description contains both general view, impact and post-incident steps to follow.
+## Metrics for measuring the incident response capability and its effectiveness
+Every incident's impact is measured from a point of view of a potential money loss.
+We distinguish three types of potential money loss:
+- unavailability
+- too many winning players
+- lack of players
+## Roadmap for maturing the incident response capability 
+After each incident response that has been done in any way, the successful or failed one, management will have to accept next iterations of our forged/improved response plan,
+## How the program fits into the overall organization
+As our organization is imaginary, we try to ensure the management that given incidents are close to fatal and those incidents are highly probable to occur. We must focus on incidents that may bring huge loss to our company and there is no insurance that may cover the damage.
+
+# Our incident response plan
+## Communication
+### The media - internal and external communication
+In case of internal communication of any incident we should follow rules of informing everyone on company's general chat so everyone will know that they have to swap parts of the system that they are responsible for.
+In case of external communication with the public - it is prohibited. Company may lose liability and we may lose players that are our only income.
+### The law enforcement
+We consider contacting with law enforcements high probability of compromising that our system has been attacked and losing liability.
+### Incident reporting organizations
+Our company has primary and secondary Point Of Contact to report to organizations that our company have to stay in touch in case of any incident that we are obliged to inform about.
+### Other outside parties
+We consider any leakage of any incident as a damage to our profits, but in case of our suppliers and service providers we stay in confidential contact to support eachother.
+##### Internet Service Providers
+Our system's architecture is distributed across the world so we have multiple ISPs.
+Our company have designated people to constantly stay in contact with theirs people in case of any problems. We consider high network loads or denials of service.
+##### Software vendors
+Servers and end-point machines software vendors are contacted only in case of a malfunction or vulnerability.
+##### Other incident response teams
+As a world wide distributed system we have few incident response teams on each continent to prevent low availability and hold high focus on our systems security.
+Every team reports to other teams about any suspicious action in our system and is constantly training in search for new potential attacks.
+##### Affected external parties
+In our case affection may touch salesmen with end-points machines to sell tickets.
+We contact them only by our servers - disconnecting devices in case of compromisation or detection of any tamper on the devices. 
+
+## Incident response team structure
+Our teams are distributed world wide, at least one team per continent. Every team reports to other teams through secure channels. 
+We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentialy available players.
+
+## Dependencies within organization
+### Management
+### Information assurance
+### IT support
+### Legal department
+### Public Affairs and Media Relations
+### Human Resources
+### Business Continuity Planning
+### Physical Security and Facilities Management
+
+## Incident response team services
+### Intrusion Detection
+### Advisory Distribution
+### Education and Awareness
+### Information Sharing
+
+## Quality steps
+### Establish a formal incident response capability
+### Create an incident response policy
+### Develop an incident response plan based on the incident response policy
+### Develop incident response procedures
+### Establish policies and procedures regarding incident-related information sharing
+### Provide pertinent information on incidents to the appropriate organization
+### Consider the relevant factors when selecting an incident response team model
+### Select people with appropriate skills for the incident response team
+### Identify other groups within the organization that may need to participate in incident handling
+### Determine which services the team should offer
+
+
+{% include_relative e-lottery-requirements/index.md %}
