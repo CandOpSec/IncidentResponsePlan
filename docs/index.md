@@ -107,5 +107,3 @@ We have one coordinating team which is one of the distributed teams. The coordin
 ### Identify other groups within the organization that may need to participate in incident handling
 ### Determine which services the team should offer
 
-
-{% include_relative e-lottery-requirements/index.md %}
