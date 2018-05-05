@@ -1,10 +1,10 @@
 # E-Lottery requirements
 
-{% include_relative accountability/index.md %}
-{% include_relative availability/index.md %}
-{% include_relative confidentiality/index.md %}
-{% include_relative integrity/index.md %}
-{% include_relative state-stamping/index.md %}
+{% include_relative e-lottery-requirements/accountability/index.md %}
+{% include_relative e-lottery-requirements/availability/index.md %}
+{% include_relative e-lottery-requirements/confidentiality/index.md %}
+{% include_relative e-lottery-requirements/integrity/index.md %}
+{% include_relative e-lottery-requirements/state-stamping/index.md %}
 
 # Incident response plan in general
 
