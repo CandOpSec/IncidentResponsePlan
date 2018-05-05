@@ -76,18 +76,36 @@ In our case affection may touch salesmen with end-points machines to sell ticket
 We contact them only by our servers - disconnecting devices in case of compromisation or detection of any tamper on the devices. 
 
 ## Incident response team structure
+### Brief description
 Our teams are distributed world wide, at least one team per continent. Every team reports to other teams through secure channels. 
 We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentialy available players.
 
+### Structures
+- Management
+- Public Relations
+- Human Resources
+- Rapid Response Teams
+- Internal Audit Teams
+- External Audit Teams
+- Core Development Team
+- Core Architecture Team
+- Core Engineering Team
+
 ## Dependencies within organization
-### Management
-### Information assurance
-### IT support
-### Legal department
-### Public Affairs and Media Relations
-### Human Resources
-### Business Continuity Planning
-### Physical Security and Facilities Management
+- Managements stands above all of the entities from our e-lottery system structures and all of them respond to their commands and sufice their needs, as it's success is entire system's success.
+- Business Continuity Planning
+- Legal Department
+- Information Assurance
+- Physical Security and Facilities Management
+- Public Relations takes care of good visage of the company and is reporting only to FM.
+- Human Resources takes care of hiring people and is responsible for all the resources they hire.
+- Rapid Response Team is responsible for splitting tasks between all the structures in case of an incident.
+- Internal Audit Teams are responsible for checking for vulnerabilities of entire system that is accessible by company members (staff) and proofing the system from insider attacks.
+- External Audit Teams are responsible for checking and securing the system from outsider attacks.
+- Core Architecture Team is responsible for planning how the system should work and what parts are next in queue for securing. This team calculates real costs of the system to upgrade.
+- Core Development Team is responsible for developing features and system's parts for exchange or updates.
+- Core Engineering Team is responsible for designing and building (if possible) devices for external usage. Those devices are used by salesmen remotely to sell e-lottery tickets.
+
 
 ## Incident response team services
 ### Intrusion Detection
