@@ -1,3 +1,11 @@
+# E-Lottery requirements
+
+{% include_relative accountability/index.md %}
+{% include_relative availability/index.md %}
+{% include_relative confidentiality/index.md %}
+{% include_relative integrity/index.md %}
+{% include_relative state-stamping/index.md %}
+
 # Incident response plan in general
 
 ## What is a Security Incident?
@@ -47,7 +55,7 @@ We distinguish three types of potential money loss:
 - unavailability
 - too many winning players
 - lack of players
-## Roadmap for maturing the incident response capability 
+## Roadmap for maturing the incident response capability
 After each incident response that has been done in any way, the successful or failed one, management will have to accept next iterations of our forged/improved response plan,
 ## How the program fits into the overall organization
 As our organization is imaginary, we try to ensure the management that given incidents are close to fatal and those incidents are highly probable to occur. We must focus on incidents that may bring huge loss to our company and there is no insurance that may cover the damage.
@@ -73,11 +81,11 @@ As a world wide distributed system we have few incident response teams on each c
 Every team reports to other teams about any suspicious action in our system and is constantly training in search for new potential attacks.
 ##### Affected external parties
 In our case affection may touch salesmen with end-points machines to sell tickets.
-We contact them only by our servers - disconnecting devices in case of compromisation or detection of any tamper on the devices. 
+We contact them only by our servers - disconnecting devices in case of compromisation or detection of any tamper on the devices.
 
 ## Incident response team structure
 ### Brief description
-Our teams are distributed world wide, at least one team per continent. Every team reports to other teams through secure channels. 
+Our teams are distributed world wide, at least one team per continent. Every team reports to other teams through secure channels.
 We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentialy available players.
 
 ### Structures
@@ -124,4 +132,3 @@ We have one coordinating team which is one of the distributed teams. The coordin
 ### Select people with appropriate skills for the incident response team
 ### Identify other groups within the organization that may need to participate in incident handling
 ### Determine which services the team should offer
-
