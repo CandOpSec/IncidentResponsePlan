@@ -1,8 +1,24 @@
 # DOS
 ## Description of an incident
 Denial of Service - blocks any legitimate traffic to our servers.
-## Analysis
+### Analysis
 Impact of this attack can be critical if the malevolent user can block multiple servers at the same time or negligible if DOSes only part of them.
+## Establish a formal incident response capability
+The most critical outcome the attack could generate is to stop the possibility to generate the lottery numbers.
+Therefore the compensation of the sold ticket, which is a big cost, with after the likely event of loss in trust from our customers to our company, moving the customers to competitors and obliging the company the face a bigger cost in advertisement in a more aggressive advertisement campaign to regain the trust from our customers.
+Additional cost is the hardware, this type of attack can cause breaking of server and a general equipment for the network. This will take to company to purchase, set up or worse design new machines which will may lead to additional loss for not having the system at its fully potential.
+In case of a missing plan for both a successful and unsuccessful attack we could risk to remain off-line throughout multiple lotteries, making the company face immense money loss.
+## Create an incident response policy
+## Develop an incident response plan based on the incident response policy
+## Develop incident response procedures
+## Establish policies and procedures regarding incident-related information sharing
+## Provide pertinent information on incidents to the appropriate organization
+## Consider the relevant factors when selecting an incident response team model
+## Select people with appropriate skills for the incident response team
+## Identify other groups within the organization that may need to participate in incident handling
+## Determine which services the team should offer
+
+
 ## Detection
 To detect the attack we monitor traffic’s IP origins and we delegate detection to third parties (CloudFlare) or detect internally with the usage of IPS or IDS.
 ## How to recover (How to make the system usable/safe again?)
