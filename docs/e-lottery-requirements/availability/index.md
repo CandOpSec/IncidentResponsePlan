@@ -1,4 +1,4 @@
-# Elottery - availability
+# E-lottery - availability
 ### Abstract
 In this section there is a presentation of e-lottery availability concept. At first a model
 is presented and tasks which are performed by each part of it. Next paragraph discusses
@@ -24,11 +24,11 @@ to the fact of other responsibilities. The servers have knowledge of the neighbo
 and of course the ‘main’ one. Neighboring servers are defined as follows: For each server pick a
 given number of servers and connect them with each other, the number of servers picked is to
 be chosen by qualified members, each server can have different number of neighboring ones,
-‘main’ is neighbour for all by default. Connection is defined as a procedure where servers can
+‘main’ is neighbor for all by default. Connection is defined as a procedure where servers can
 divide the work between themselves, send the data or cooperate. It is good to mention that
-servers can perform on their own and be a neighbour only to ’main’. For a given interval
+servers can perform on their own and be a neighbor only to ’main’. For a given interval
 servers are checked if they are working and executing properly by ‘main’. Servers also send
-an impulse to neighbouring ones and see if there is everything fine with them, while checking
+an impulse to neighboring ones and see if there is everything fine with them, while checking
 also if they are able to talk with ’main’. In case of emergency appropriate steps are taken
 to get rid of problems or unwanted situations. Moreover it is good to mention the fact that
 communication between two servers and a server with ‘main’ is different and properly secured
@@ -47,7 +47,7 @@ the data between themselves by using protocols proven to be secure. It is good t
 that each set of neighboring servers has different keys for communication between each other.
 This solution makes it possible to avoid a danger situation in which someone unauthorized
 would acquire the key used for encryption/decryption and could read all communication by
-himself/herself and what’s even worse make attemps to tamper with it. The keys are hold in
+himself/herself and what’s even worse make attempts to tamper with it. The keys are hold in
 secret location known only to authorized and trusted members of the company. For a given
 time interval servers are sending an impulse to the neighbors and report if they received
 an answer to ‘main’. After that a report is generated to assess the condition of working
@@ -55,20 +55,20 @@ servers. If result is positive then servers are working properly. If results are
 appropriate procedures are taken to make the problem’s impact as small as it is possible. In
 some cases we can establish a new connection between two servers, which are not neighbors
 by generating/giving a new mutual key for them. At this moment we have taken care of
-managing the work, making it possible for eveyone to be served and monitoring the status
+managing the work, making it possible for everyone to be served and monitoring the status
 of our network. Such solution makes it possible to reach availability of an acceptable level.
 ### 4 Verifying
-In this section we will discuss the verification aspect of availability of elottery. By verification
+In this section we will discuss the verification aspect of availability of e-lottery. By verification
 we mean the condition that it is possible for servers to work and process data without creating
 any losses. To verify availability neighboring servers send impulse to each other and check if
 they received the response. After given time interval they create a report and send it to ‘main’.
-The reports have an established pattern. Later ‘main’ analyse the report and according to
-the results takes proper action. Mesages sent to ‘main’ have priority value that makes it
+The reports have an established pattern. Later ‘main’ analyze the report and according to
+the results takes proper action. Messages sent to ‘main’ have priority value that makes it
 possible to respond immediately to the event if it is necessary. To verify the availability tests
 are also conducted. From time to time servers are being tested if they are capable to work or
 they need conservation time. In such a way the condition of servers is controlled and verified.
 Let us consider one more situation when something happens to the ‘main’ server. In such a
-case we have a set of substistute servers to maintain the role. This is also why the ‘main’ is
+case we have a set of substitute servers to maintain the role. This is also why the ‘main’ is
 divided into more parts than one because in the other case we would lose not only amount of
-information but also entire communication coud be interrupted and in result it would follow
+information but also entire communication could be interrupted and in result it would follow
 to chaos.
