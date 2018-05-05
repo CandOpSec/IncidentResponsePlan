@@ -34,22 +34,28 @@ To help prioritize the timing and resources needed to deploy corrective action, 
 
 
 # Plan for our large scale e-lottery system
+
 ## Mission
 Our incident response plan is about protecting availability and preventing random numbers prediction.
+
 ## Strategies and goals
 Our strategy to protect availability is through mirroring servers and frequent staff or system parts changes.
 Our goal is to sustain profitability from every single e-lottery game and stopping any fraudulent action inside the system.
+
 ## Senior management approval
 MISSING
+
 ## How the incident response team will communicate with the rest of the organization and with other organizations
 In case of large scale e-lottery served via complex networks, we are assuming that every action should be taken automatically in a way that applies to given incident.
 Each incident description contains both general view, impact and post-incident steps to follow.
+
 ## Metrics for measuring the incident response capability and its effectiveness
 Every incident's impact is measured from a point of view of a potential money loss.
 We distinguish three types of potential money loss:
 - unavailability
 - too many winning players
 - lack of players
+
 ## Roadmap for maturing the incident response capability
 After each incident response that has been done in any way, the successful or failed one, management will have to accept next iterations of our forged/improved response plan,
 ## How the program fits into the overall organization
@@ -65,7 +71,7 @@ We consider contacting with law enforcements high probability of compromising th
 ### Incident reporting organizations
 Our company has primary and secondary Point Of Contact to report to organizations that our company have to stay in touch in case of any incident that we are obliged to inform about.
 ### Other outside parties
-We consider any leakage of any incident as a damage to our profits, but in case of our suppliers and service providers we stay in confidential contact to support eachother.
+We consider any leakage of any incident as a damage to our profits, but in case of our suppliers and service providers we stay in confidential contact to support each other.
 ##### Internet Service Providers
 Our system's architecture is distributed across the world so we have multiple ISPs.
 Our company have designated people to constantly stay in contact with theirs people in case of any problems. We consider high network loads or denials of service.
@@ -81,7 +87,7 @@ We contact them only by our servers - disconnecting devices in case of compromis
 ## Incident response team structure
 ### Brief description
 Our teams are distributed world wide, at least one team per continent. Every team reports to other teams through secure channels.
-We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentialy available players.
+We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentially available players.
 
 ### Structures
 - Management
@@ -95,7 +101,7 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Core Engineering Team
 
 ## Dependencies within organization
-- Managements stands above all of the entities from our e-lottery system structures and all of them respond to their commands and sufice their needs, as it's success is entire system's success.
+- Managements stands above all of the entities from our e-lottery system structures and all of them respond to their commands and suffice their needs, as it's success is entire system's success.
 - Business Continuity Planning
 - Legal Department
 - Information Assurance
@@ -108,7 +114,6 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Core Architecture Team is responsible for planning how the system should work and what parts are next in queue for securing. This team calculates real costs of the system to upgrade.
 - Core Development Team is responsible for developing features and system's parts for exchange or updates.
 - Core Engineering Team is responsible for designing and building (if possible) devices for external usage. Those devices are used by salesmen remotely to sell e-lottery tickets.
-
 
 ## Incident response team services
 ### Intrusion Detection
@@ -127,3 +132,5 @@ We have one coordinating team which is one of the distributed teams. The coordin
 ### Select people with appropriate skills for the incident response team
 ### Identify other groups within the organization that may need to participate in incident handling
 ### Determine which services the team should offer
+
+{% include_relative attacks.md %}
