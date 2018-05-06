@@ -31,6 +31,9 @@ and if it can happen again and if needed they have to update this policy.
 ### Identify other groups within the organization that may need to participate in incident handling
 
 ### Determine which services the team should offer
+?Accountant:
+ -estimate possible money loss
+ -plan to refund the money without ending in negative
 
 ###Atack prevention
 - Examine the background of all employees, sales agent, and contractors od the Loterry
