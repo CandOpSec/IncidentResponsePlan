@@ -35,7 +35,7 @@ and if it can happen again and if needed they have to update this policy.
  -estimate possible money loss
  -plan to refund the money without ending in negative
 
-###Atack prevention
-- Examine the background of all employees, sales agent, and contractors od the Loterry
-- Prompting the salesperson for his credentials while selling the ticket
-- Make the salespaerson responsible fot the any loss.
+### Atack prevention
+* Examine the background of all employees, sales agent, and contractors od the Loterry
+* Prompting the salesperson for his credentials while selling the ticket
+* Make the salespaerson responsible fot the any loss.
