@@ -11,9 +11,9 @@ In case of a missing plan for both a successful and unsuccessful attack we could
 ## Create an incident response policy
 The policy is to keep the company going, which means that the most critical mission is to move the jobs executed on the attacked network or machines to external(intercontinental) ones. In such a way we can keep the company activities going while one of the subsidiary is under attack.
 ## Develop an incident response plan based on the incident response policy
-In case of DOS, the most critical mission, is to make possible that the team of engineers will move the jobs performed on the attacked machines/network to externals (different continent) backup machines. In this way, the company can still perform its activity while one of the subsidiary gets attacked.
+In case of DOS, the most critical mission, is to make possible that the incident response team will move the jobs performed on the attacked machines/network to externals (different continent) backup machines. In this way, the company can still perform its activity while one of the subsidiary gets attacked.
 In parallel a team of analyst (externals or internals) can analyze the traffic to understand the origin/pattern of the traffic to understand what to block and limit the impact of the attack onto the system.
-Network engineers will redirect part of the traffic directed to the attacked machines to other dummy machine the distribute more evenly the attack and decrease its damage.
+Network engineers will redirect part of the traffic directed to the attacked machines to other dummy machine (external and internals) to distribute more evenly the attack and decrease its damage.
 ## Develop incident response procedures
 ### Critical
 1. Network engineers/analyst detects which part of the network is under attack and the source of it.
@@ -45,6 +45,8 @@ In case that we cannot recover on time from the attack to perform our usual acti
   * try to distributed the attack as evenly as possible without compromising the other machines
   * estimate how much time to recover from the attack is needed and inform PR department about it
   * if needed move the compromised jobs to external servers
+- Server engineers
+  * check if any hardware got compromised during the attack
 - Accountant:
   * estimate possible money loss
   * plan to refund the money without ending in negative
@@ -54,4 +56,4 @@ In case that we cannot recover on time from the attack to perform our usual acti
   * Inform the investors and customers about the attack
 ## Attack prevention
 * Having updated routers IPS, IDS and firewall with the latest info about traffic to block, like famous IP used in botnets or DOS in other systems
-* Analyst have to monitor the system and in case of suspicious activities, inform the security engineers so that they can prevent the attack before it is too late, or at least reduce its impact.
+* Analyst have to monitor the system and in case of suspicious activities, inform the incident response team so that they can prevent the attack before it is too late, or at least reduce its impact.
