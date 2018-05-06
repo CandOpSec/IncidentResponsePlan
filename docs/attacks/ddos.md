@@ -1,4 +1,4 @@
-# DOS
+# DDOS
 ## Description of an incident
 Distributed Denial of Service - blocks any legitimate traffic to our servers.
 ### Analysis
