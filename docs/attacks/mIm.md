@@ -23,5 +23,3 @@ The cost of the attack may vary on number of users affected.
 The cost of the prevention is included in cost of the recovery.
 ## Cost/Feasibility difference between Recovery and Prevention (Which is more worth it?)
 As we are not able to predict future vectors of attack we assume that recovery of incidents that occurred is more feasible for us.
-
-{% include_relative mlm/index.md %}
