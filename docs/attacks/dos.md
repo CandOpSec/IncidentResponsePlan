@@ -24,6 +24,9 @@ Network engineers will redirect part of the traffic directed to the attacked mac
 5. Analyst must understand the source of the attack to know what traffic to block and check if during the DOS attack some additional attack was performed hidden by the DOS. If so, report it and follow the policy for that additional attack.
 6. The traffic can be decreased by increasing the standards of acceptance by the IPS and firewall, so to filter more traffic.
 6. Once the traffic is blocked and the compromised machines and the one dependent to them are checked we can move back our traffic to its original source.
+
+![Simple scheme of the MITM ATTACK](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/dos/assets/DOS-SCHEME.png)
+
 ## Establish policies and procedures regarding incident-related information sharing
 1. First of all it is needed to inform all subsidiary that an attack is going on and that it could spread.
 2. In case that the engineers will not manage to move the jobs to external servers on time and the company will not manage to perform its activity then the customers must be informed the compromised activity will not be available. In that case the accountant department must prepare a cost perspective for the refund of the sold tickets.
