@@ -18,7 +18,7 @@ Network engineers will redirect part of the traffic directed to the attacked mac
 ### Critical
 1. Network engineers/analyst detects which part of the network is under attack and the source of it.
 2. Is checked what this machine performed and which of the machines performs the job with the higher priority.
-  * In parallel is checked if the other subsidiary are also under attack, we prepare, in the one that are not, the machine that will start to perform the jobs that our attacked machines should perform. If all subsidiary are under attack, we contact a third party company that offers the service renting servers to prepare servers for us, at least of the quantity necessary to perform the most critical jobs.
+    * In parallel is checked if the other subsidiary are also under attack, we prepare, in the one that are not, the machine that will start to perform the jobs that our attacked machines should perform. If all subsidiary are under attack, we contact a third party company that offers the service renting servers to prepare servers for us, at least of the quantity necessary to perform the most critical jobs.
 3. In order of critical relevance we move the jobs to the external servers
 4. Once the most critical jobs are moved the priority moves to restore a previous healthy status of the system.
 5. Analyst must understand the source of the attack to know what traffic to block and check if during the DOS attack some additional attack was performed hidden by the DOS. If so, report it and follow the policy for that additional attack.
@@ -26,12 +26,15 @@ Network engineers will redirect part of the traffic directed to the attacked mac
 6. Once the traffic is blocked and the compromised machines and the one dependent to them are checked we can move back our traffic to its original source.
 ## Establish policies and procedures regarding incident-related information sharing
 1. First of all it is needed to inform all subsidiary that an attack is going on and that it could spread.
-2. In case that the engineers will not manage to move the jobs to external servers on time and the company will not manage to perform its activity then the customers must be informed the compromised activity will not be available. In that case the accouter department must prepare a cost perspective for the refund of the sold tickets.
+2. In case that the engineers will not manage to move the jobs to external servers on time and the company will not manage to perform its activity then the customers must be informed the compromised activity will not be available. In that case the accountant department must prepare a cost perspective for the refund of the sold tickets.
 ## Provide pertinent information on incidents to the appropriate organization
 In case the attack was performed due to some new bug in the system. Then, as soon as the exploit will be fixed on our machines, the security engineers will prepare a report and publish the used exploit.
 Insurance companies with which we have a contract must be informed in detail for the attack.
 ## Consider the relevant factors when selecting an incident response team model
+1. What is the most efficient way to ask
 ## Select people with appropriate skills for the incident response team
+The incident response team will be responsible to orchestrate the above and below explained policies. Therefore they will be people with excellent communication skill, capable to take fast decision and moreover responsibility for it. These people will be the main responsible in both case of failure and success the below mentioned departments have to respond directly to them in case of attack.
+The team must monitor that all the involved departments follow the described policy. After the recovery from the attack they must make a report about what/why has happened and how to prevent it and if it can happen again and if needed they have to update this policy.
 ## Identify other groups within the organization that may need to participate in incident handling
 In case that we cannot recover on time from the attack to perform our usual activities, then the public relation department must prepare the best way to inform the customers that the compromised activities will not be available until the time estimated by the engineers working on it will be reached. In parallel also the accountants department must work on understanding the possible money loss and how to refund the unhappy customers.
 ## Determine which services the team should offer
