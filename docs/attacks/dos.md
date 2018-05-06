@@ -9,34 +9,46 @@ Therefore the compensation of the sold ticket, which is a big cost, with after t
 Additional cost is the hardware, this type of attack can cause breaking of server and a general equipment for the network. This will take to company to purchase, set up or worse design new machines which will may lead to additional loss for not having the system at its fully potential.
 In case of a missing plan for both a successful and unsuccessful attack we could risk to remain off-line throughout multiple lotteries, making the company face immense money loss.
 ## Create an incident response policy
+The policy is to keep the company going, which means that the most critical mission is to move the jobs executed on the attacked network or machines to external(intercontinental) ones. In such a way we can keep the company activities going while one of the subsidiary is under attack.
 ## Develop an incident response plan based on the incident response policy
+In case of DOS, the most critical mission, is to make possible that the team of engineers will move the jobs performed on the attacked machines/network to externals (different continent) backup machines. In this way, the company can still perform its activity while one of the subsidiary gets attacked.
+In parallel a team of analyst (externals or internals) can analyze the traffic to understand the origin/pattern of the traffic to understand what to block and limit the impact of the attack onto the system.
+Network engineers will redirect part of the traffic directed to the attacked machines to other dummy machine the distribute more evenly the attack and decrease its damage.
 ## Develop incident response procedures
+### Critical
+1. Network engineers/analyst detects which part of the network is under attack and the source of it.
+2. Is checked what this machine performed and which of the machines performs the job with the higher priority.
+  * In parallel is checked if the other subsidiary are also under attack, we prepare, in the one that are not, the machine that will start to perform the jobs that our attacked machines should perform. If all subsidiary are under attack, we contact a third party company that offers the service renting servers to prepare servers for us, at least of the quantity necessary to perform the most critical jobs.
+3. In order of critical relevance we move the jobs to the external servers
+4. Once the most critical jobs are moved the priority moves to restore a previous healthy status of the system.
+5. Analyst must understand the source of the attack to know what traffic to block and check if during the DOS attack some additional attack was performed hidden by the DOS. If so, report it and follow the policy for that additional attack.
+6. The traffic can be decreased by increasing the standards of acceptance by the IPS and firewall, so to filter more traffic.
+6. Once the traffic is blocked and the compromised machines and the one dependent to them are checked we can move back our traffic to its original source.
 ## Establish policies and procedures regarding incident-related information sharing
+1. First of all it is needed to inform all subsidiary that an attack is going on and that it could spread.
+2. In case that the engineers will not manage to move the jobs to external servers on time and the company will not manage to perform its activity then the customers must be informed the compromised activity will not be available. In that case the accouter department must prepare a cost perspective for the refund of the sold tickets.
 ## Provide pertinent information on incidents to the appropriate organization
+In case the attack was performed due to some new bug in the system. Then, as soon as the exploit will be fixed on our machines, the security engineers will prepare a report and publish the used exploit.
+Insurance companies with which we have a contract must be informed in detail for the attack.
 ## Consider the relevant factors when selecting an incident response team model
 ## Select people with appropriate skills for the incident response team
 ## Identify other groups within the organization that may need to participate in incident handling
+In case that we cannot recover on time from the attack to perform our usual activities, then the public relation department must prepare the best way to inform the customers that the compromised activities will not be available until the time estimated by the engineers working on it will be reached. In parallel also the accountants department must work on understanding the possible money loss and how to refund the unhappy customers.
 ## Determine which services the team should offer
-
-
-## Detection
-To detect the attack we monitor traffic’s IP origins and we delegate detection to third parties (CloudFlare) or detect internally with the usage of IPS or IDS.
-## How to recover (How to make the system usable/safe again?)
-In case of fatal DOS attack (multiple servers down) we deploy new instances of the servers in another regions of the world.
-### What is the cost of recovery?
-The cost of recovery is a time of work-hours of our Development Teams and rent cost of new servers.
-### How to stop the attack?
-To stop the attack we migrate main server to another region of the world to make the attacker’s traffic go through smaller bandwidths networks to reach.
-### How to return to the previous status of the machine?
-The new region for the server is going to stay as the main one until some requirements make us change the decision.
-### How to prevent from Future same/similar incidents
-The DOS attacks are hard to avoid or prevent, but we have developed a system to quickly respond to those attacks.
-### How to avoid similar events in the future?
-To avoid similar events in the future we stay as long as the new bandwidth allows us to carry current amount of users, so the attacker is not able to deploy new DOS from the same origins.
-### What was the cost of the attack?
-The cost of the attack is the time to deploy new servers and time to broadcast new IP/Domains for all main DNS servers.
-### What is the cost of prevention?
-The cost of prevention is amount of lost users due to website load time from remote regions of the world.
-Cost/Feasibility difference between Recovery and Prevention
-## Conclusion: Which is more worth it?
-It is more feasible to Recover from the incident than to Prevent the DOS attack, because of really important for the user Website Load Time.
+- Analyst:
+  * understand the source/pattern of the attack, so to block that type of traffic
+  * check if other attacks or suspicious activity are happening hidden under the chaos of the DOS
+- Network engineers:
+  * try to distributed the attack as evenly as possible without compromising the other machines
+  * estimate how much time to recover from the attack is needed and inform PR department about it
+  * if needed move the compromised jobs to external servers
+- Accountant:
+  * estimate possible money loss
+  * plan to refund the money without ending in negative
+- Advertisement department:
+  * prepare campaign to recreate trust into the company
+- Public relation:
+  * Inform the investors and customers about the attack
+## Attack prevention
+* Having updated routers IPS, IDS and firewall with the latest info about traffic to block, like famous IP used in botnets or DOS in other systems
+* Analyst have to monitor the system and in case of suspicious activities, inform the security engineers so that they can prevent the attack before it is too late, or at least reduce its impact.
