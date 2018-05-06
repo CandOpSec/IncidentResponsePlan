@@ -110,6 +110,10 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Core Development Team
 - Core Architecture Team
 - Core Engineering Team
+- Accountancy department
+- Advertisement department
+- SOC-SIEM department
+
 
 ## Dependencies within organization
 - Managements stands above all of the entities from our e-lottery system structures and all of them respond to their commands and suffice their needs, as it's success is entire system's success.
@@ -125,7 +129,9 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Core Architecture Team is responsible for planning how the system should work and what parts are next in queue for securing. This team calculates real costs of the system to upgrade.
 - Core Development Team is responsible for developing features and system's parts for exchange or updates.
 - Core Engineering Team is responsible for designing and building (if possible) devices for external usage. Those devices are used by salesmen remotely to sell e-lottery tickets.
-
+- Accountancy department are responsible on keeping track of entrance and exit of money, are required on estimating money loss in case of critical incidents.
+- Advertisement department, they are subset of the public relation department. They are needed to recreate trust towards the company after a critical attack.
+- SOC-SIEM department, composed of security engineers and analysts, they work on monitoring the system and finding vulnerabilities to patch.
 ## Incident response team services
 ### Intrusion Detection
 Incident detection is possible by means of three main team types and outside sources such as outsourced informators or anonymous sources.
