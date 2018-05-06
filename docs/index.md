@@ -1,5 +1,5 @@
 # E-lottery
-{% include_relative intro.md %}
+<!-- {% include_relative intro.md %} -->
 
 # Incident response plan in general
 
@@ -36,6 +36,7 @@ To help prioritize the timing and resources needed to deploy corrective action, 
 # Plan for our large scale e-lottery system
 
 ## Mission
+Our company's mission is to allow every user of our platform to have equal chances of winning the e-lottery.
 Our incident response plan is about protecting availability and preventing random numbers prediction.
 
 ## Strategies and goals
@@ -43,7 +44,7 @@ Our strategy to protect availability is through mirroring servers and frequent s
 Our goal is to sustain profitability from every single e-lottery game and stopping any fraudulent action inside the system.
 
 ## Senior management approval
-MISSING
+Incidents selected in this document are approved by senior management and are considered crucial for existence of our e-lottery system.
 
 ## How the incident response team will communicate with the rest of the organization and with other organizations
 In case of large scale e-lottery served via complex networks, we are assuming that every action should be taken automatically in a way that applies to given incident.
@@ -57,29 +58,39 @@ We distinguish three types of potential money loss:
 - lack of players
 
 ## Roadmap for maturing the incident response capability
-After each incident response that has been done in any way, the successful or failed one, management will have to accept next iterations of our forged/improved response plan,
+After each incident response that has been done in any way, the successful or failed one, management will have to accept next iterations of our forged/improved response plan.
+
 ## How the program fits into the overall organization
 As our organization is imaginary, we try to ensure the management that given incidents are close to fatal and those incidents are highly probable to occur. We must focus on incidents that may bring huge loss to our company and there is no insurance that may cover the damage.
 
 # Our incident response plan
 ## Communication
+Chain of communication is recommended to follow, but in special cases when time is main factor of defending our system from total failure we encourage to broadcast the messages to all internal entities at once.
+
 ### The media - internal and external communication
 In case of internal communication of any incident we should follow rules of informing everyone on company's general chat so everyone will know that they have to swap parts of the system that they are responsible for.
-In case of external communication with the public - it is prohibited. Company may lose liability and we may lose players that are our only income.
+In case of external communication with the public - it is prohibited with exception for Public Relations staff members who are in charge of reporting. Company may lose liability and we may lose players that are our only income.
+
 ### The law enforcement
 We consider contacting with law enforcements high probability of compromising that our system has been attacked and losing liability.
+
 ### Incident reporting organizations
 Our company has primary and secondary Point Of Contact to report to organizations that our company have to stay in touch in case of any incident that we are obliged to inform about.
+
 ### Other outside parties
 We consider any leakage of any incident as a damage to our profits, but in case of our suppliers and service providers we stay in confidential contact to support each other.
+
 ##### Internet Service Providers
 Our system's architecture is distributed across the world so we have multiple ISPs.
 Our company have designated people to constantly stay in contact with theirs people in case of any problems. We consider high network loads or denials of service.
+
 ##### Software vendors
 Servers and end-point machines software vendors are contacted only in case of a malfunction or vulnerability.
+
 ##### Other incident response teams
 As a world wide distributed system we have few incident response teams on each continent to prevent low availability and hold high focus on our systems security.
 Every team reports to other teams about any suspicious action in our system and is constantly training in search for new potential attacks.
+
 ##### Affected external parties
 In our case affection may touch salesmen with end-points machines to sell tickets.
 We contact them only by our servers - disconnecting devices in case of compromisation or detection of any tamper on the devices.
@@ -93,7 +104,7 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Management
 - Public Relations
 - Human Resources
-- Rapid Response Teams
+- Incident Response Teams
 - Internal Audit Teams
 - External Audit Teams
 - Core Development Team
@@ -102,13 +113,13 @@ We have one coordinating team which is one of the distributed teams. The coordin
 
 ## Dependencies within organization
 - Managements stands above all of the entities from our e-lottery system structures and all of them respond to their commands and suffice their needs, as it's success is entire system's success.
-- Business Continuity Planning
-- Legal Department
-- Information Assurance
-- Physical Security and Facilities Management
+    - Business Continuity Planning Management
+    - Legal Department Management
+    - Information Assurance Management
+    - Physical Security and Facilities Management
 - Public Relations takes care of good visage of the company and is reporting only to FM.
 - Human Resources takes care of hiring people and is responsible for all the resources they hire.
-- Rapid Response Team is responsible for splitting tasks between all the structures in case of an incident.
+- Incident Response Team is responsible for splitting tasks between all the structures in case of an incident.
 - Internal Audit Teams are responsible for checking for vulnerabilities of entire system that is accessible by company members (staff) and proofing the system from insider attacks.
 - External Audit Teams are responsible for checking and securing the system from outsider attacks.
 - Core Architecture Team is responsible for planning how the system should work and what parts are next in queue for securing. This team calculates real costs of the system to upgrade.
@@ -117,9 +128,29 @@ We have one coordinating team which is one of the distributed teams. The coordin
 
 ## Incident response team services
 ### Intrusion Detection
+Incident detection is possible by means of three main team types and outside sources such as outsourced informators or anonymous sources.
+Three main team types:
+
+- Engineering Teams
+    - Systems
+    - Networks
+    - Hardwares
+    - Architectures
+- Development Teams
+    - Kernels
+    - Features
+    - Softwares
+    - Extensions
+- [*In|Ex*]ternal Audit Teams
+
 ### Advisory Distribution
+Our company outsources most of the advisories, such as legal department advisors.
+
 ### Education and Awareness
+Our company extensive researches on subjects of information security and cyber security are sufficient to stay up-to-date with bleeding edge technologies and vulnerabilities. We use that knowledge to spread between our structures durin comprehensive lectures and technical workshops for our Engineers, Developers, Audit Teams and ordinary employees.
+
 ### Information Sharing
+Sharing of the information inside of our company is possible by any secure channel. We are global e-lottery system and it is feasible to use secured network connections to communicate and share information about current system's state.
 
 ## Quality steps
 ### Establish a formal incident response capability
