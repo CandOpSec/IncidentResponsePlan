@@ -79,3 +79,5 @@ Information about the incident should be provided only to organizations that bou
     * to calculate losses and gains
 - Public Relations:
     * to share the information about the attack in a way that will not cause losses indirectly
+
+
