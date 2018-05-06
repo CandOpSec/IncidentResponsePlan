@@ -23,4 +23,3 @@ Cost/Feasibility difference between Recovery and Prevention (conclusion)
 A more favorable solution is prevent with creating a new contract with an attachment about a penalty.
 
 
-{% include_relative salesmanFraudery/index.md %}
