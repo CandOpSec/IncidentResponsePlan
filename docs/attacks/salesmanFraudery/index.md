@@ -23,6 +23,8 @@ Engineering Team.
 6. Engineering teams inform about progress and point when the machine is exchanged.
 7. Engineering Team prepare documentations of changes made.
 
+![Simple scheme of the MITM ATTACK](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/salesmanFraudery/assets/SALESMANFRAUDERY-SCHEME.png)
+
 ### Establish policies and procedures regarding incident-related information sharing
 We share status of the incident to every internal team involved directly to preventing or responding to the attack.
 The account department must prepare a cost of perspective for the refund of the fake won ticket and also cost for the exchange machine.
