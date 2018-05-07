@@ -101,7 +101,8 @@ Our teams are distributed world wide, at least one team per continent. Every tea
 We have one coordinating team which is one of the distributed teams. The coordinating team is a team which's region has the highest risk of being attacked and actually has the biggest number of potentially available players.
 
 ### Structures
-- Management
+Each of below structures should contain exact personal details for easier contact.
+- Management (John Doe, mail@mail.net, phone number, ...)
 - Public Relations
 - Human Resources
 - Incident Response Teams
@@ -125,13 +126,15 @@ We have one coordinating team which is one of the distributed teams. The coordin
 - Human Resources takes care of hiring people and is responsible for all the resources they hire.
 - Incident Response Team is responsible for splitting tasks between all the structures in case of an incident.
 - Internal Audit Teams are responsible for checking for vulnerabilities of entire system that is accessible by company members (staff) and proofing the system from insider attacks.
-- External Audit Teams are responsible for checking and securing the system from outsider attacks.
+- External Audit Teams are responsible for checking and securing the system from outsider attacks and proving system is secure in a way that public may accept as legitimate.
 - Core Architecture Team is responsible for planning how the system should work and what parts are next in queue for securing. This team calculates real costs of the system to upgrade.
 - Core Development Team is responsible for developing features and system's parts for exchange or updates.
 - Core Engineering Team is responsible for designing and building (if possible) devices for external usage. Those devices are used by salesmen remotely to sell e-lottery tickets.
 - Accountancy department are responsible on keeping track of entrance and exit of money, are required on estimating money loss in case of critical incidents.
 - Advertisement department, they are subset of the public relation department. They are needed to recreate trust towards the company after a critical attack.
 - SOC-SIEM department, composed of security engineers and analysts, they work on monitoring the system and finding vulnerabilities to patch.
+
+
 ## Incident response team services
 ### Intrusion Detection
 Incident detection is possible by means of three main team types and outside sources such as outsourced informators or anonymous sources.
@@ -157,6 +160,13 @@ Our company extensive researches on subjects of information security and cyber s
 
 ### Information Sharing
 Sharing of the information inside of our company is possible by any secure channel. We are global e-lottery system and it is feasible to use secured network connections to communicate and share information about current system's state.
+
+### Impact criteria
+As a company we value profit and system traffic over stagnation. Our system earns from number of users playing games and lack of system failures or unexpected incidents which require us to interact and spend resources. We distinguish three main types of criteria for classification of the incidents, which may require slight interpretation depending on context of an incident:
+- critical - stake of our system is endangered and there is huge probability of losing more money or public respect than we can gather in a month of no-disturbance.
+- average/moderate - the probability of losing money is enough to start considering change of main components in advance as an investment
+- low/non-negligible - the probability of money loss is too small to recover from single incident with high priority. Instead we recognise that types of incidents better for insurance companies to pay off or our teams to consider next occurences of that type of incident defensible with prevention stage (small system changes).
+- negligible - incidents not worth applying any resources to respond or build prevention steps for further usage.
 
 ## Quality steps
 ### Establish a formal incident response capability
