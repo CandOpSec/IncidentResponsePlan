@@ -23,7 +23,7 @@ Engineering Team.
 6. Engineering teams inform about progress and point when the machine is exchanged.
 7. Engineering Team prepare documentations of changes made.
 
-![Simple scheme of the MITM ATTACK](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/salesmanFraudery/assets/SALESMANFRAUDERY-SCHEME.png)
+![Simple scheme of the SALESMAN FRAUDERY ATTACK](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/salesmanFraudery/assets/SALESMANFRAUDERY-SCHEME.png)
 
 ### Establish policies and procedures regarding incident-related information sharing
 We share status of the incident to every internal team involved directly to preventing or responding to the attack.
