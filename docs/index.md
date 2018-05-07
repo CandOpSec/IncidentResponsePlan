@@ -156,7 +156,7 @@ Three main team types:
 Our company outsources most of the advisories, such as legal department advisors.
 
 ### Education and Awareness
-Our company extensive researches on subjects of information security and cyber security are sufficient to stay up-to-date with bleeding edge technologies and vulnerabilities. We use that knowledge to spread between our structures durin comprehensive lectures and technical workshops for our Engineers, Developers, Audit Teams and ordinary employees.
+Our company extensive researches on subjects of information security and cyber security are sufficient to stay up-to-date with bleeding edge technologies and vulnerabilities. We use that knowledge to spread between our structures during comprehensive lectures and technical workshops for our Engineers, Developers, Audit Teams and ordinary employees.
 
 ### Information Sharing
 Sharing of the information inside of our company is possible by any secure channel. We are global e-lottery system and it is feasible to use secured network connections to communicate and share information about current system's state.
@@ -165,7 +165,7 @@ Sharing of the information inside of our company is possible by any secure chann
 As a company we value profit and system traffic over stagnation. Our system earns from number of users playing games and lack of system failures or unexpected incidents which require us to interact and spend resources. We distinguish three main types of criteria for classification of the incidents, which may require slight interpretation depending on context of an incident:
 - critical - stake of our system is endangered and there is huge probability of losing more money or public respect than we can gather in a month of no-disturbance.
 - average/moderate - the probability of losing money is enough to start considering change of main components in advance as an investment
-- low/non-negligible - the probability of money loss is too small to recover from single incident with high priority. Instead we recognise that types of incidents better for insurance companies to pay off or our teams to consider next occurences of that type of incident defensible with prevention stage (small system changes).
+- low/non-negligible - the probability of money loss is too small to recover from single incident with high priority. Instead we recognize that types of incidents better for insurance companies to pay off or our teams to consider next occurrences of that type of incident defensible with prevention stage (small system changes).
 - negligible - incidents not worth applying any resources to respond or build prevention steps for further usage.
 
 ## Quality steps
