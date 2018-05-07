@@ -147,7 +147,7 @@ Three main team types:
     - Features
     - Softwares
     - Extensions
-- [*In|Ex*]ternal Audit Teams
+- Internal and External Audit Teams
 
 ### Advisory Distribution
 Our company outsources most of the advisories, such as legal department advisors.
