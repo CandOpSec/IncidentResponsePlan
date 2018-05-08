@@ -19,6 +19,8 @@ Given steps are taken to solve the problem:
 6. Report after the incident is presented.
 7. Security aspect of PRG is improved.
 
+![Simple scheme of the PRG Tampering attack](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/InsidersPRG/assets/InsidersPRG-Scheme.png)
+
 ### Policies and procedures regarding incident-related information sharing
 Public Relation team is involved in the task. Their objective is to contact with the manufacturer of the PRG and form a dialogue channel to solve possible problems in the future. Chosen informations are also presented to players so that they are aware of possible fraudations that may happen during the lottery game.
 ### Providing information to the appropriate organization
