@@ -15,6 +15,8 @@ Given steps are taken to respond in case of an attack:
 6. Old parts are then send for analysis and finding possible gaps.
 7. A report from the incident is being made and published to the company's structures.
 
+![Simple scheme of the Compromise scheme attack](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/attacks/InsidersSCH/assets/InsidersSCH-Scheme.png)
+
 ### Policies and procedures regarding incident-related information sharing
 When it comes to contact with other third party beings Public Relation forms a unit that will take care and forms needed dialogues. The policy is to assure others that company is aware of the problem and is on the way to solve it. Players shall be informed if the incident might have the direct or in some cases indirect impact on them. When the situation is resolved a report for third party users is formed so that all are assured that the solutions implemented made it possible to defeat potential danger.
 ### Providing information to the appropriate organization
