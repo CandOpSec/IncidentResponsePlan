@@ -35,6 +35,9 @@ To help prioritize the timing and resources needed to deploy corrective action, 
 
 # Plan for our large scale e-lottery system
 
+![Simple scheme of the e-lottery system](https://raw.githubusercontent.com/CandOpSec/IncidentResponsePlan/master/docs/e-lottery-requirements/confidentiality/assets/simple_scheme.png)
+
+
 ## Mission
 Our company's mission is to allow every user of our platform to have equal chances of winning the e-lottery.
 Our incident response plan is about protecting availability and preventing random numbers prediction.
