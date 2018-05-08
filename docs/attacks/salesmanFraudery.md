@@ -19,7 +19,7 @@ Add a clause to the contract with information about covering all lottery losses 
 ## How to avoid similar events in the future?
 Buy a self-check machines that allow customers to validate their own tickets and terminal screens that face the customer
 ## What was the cost of the attack?
-The cost of the attack is to hire a new seller and ensuring adequate training for a new person.
+The cost of the attack is to hire a new salesman and ensuring adequate training for a new person.
 ## What is the cost of prevention?
 Cost of the prevention is invest in the new self-check machine, which the seller will not have access and also create a new contract for salesman.
 ## Which is more worth it?
